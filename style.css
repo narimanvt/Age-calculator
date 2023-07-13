@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Overpass:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');body{
+    font-family:Outfit;
+    font-weight:600;
+    color:hsl(0, 0%, 10%);
+    background-color:hsl(0, 0%, 94%);
+}
+.main-box {
+    background-color: hsl(0, 0%, 100%);
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:700px;
+    height: 550px;
+    min-width: 375px;
+    max-width: 1440px;
+    border-radius:20px 20px 200px 20px;
+}
+.inner-box {
+    margin:3% 9%;
+}
+
+
+.inputs {
+    display:flex;
+    justify-content:flex-start;
+}
+
+ #input-box {
+    padding-right:10%;
+ }
+
+ #input-box input {
+    height: 50px;
+    width:120px;
+    border:1px solid hsla(0, 0%, 42%, 0.311);
+    border-radius: 5px;
+    margin-top:-3%;
+    cursor: pointer;
+    font-size:25px;
+    font-weight:700;
+    padding-left:18%;
+    
+}
+
+/* #input-box.day-input:focus {
+    border: 2px solid hsl(259, 100%, 65%);
+    outline:none;
+} */
+
+#input-box p {
+    font-size:11px;
+    color:hsl(0, 1%, 44%);
+    font-weight:700;
+}
+
+#input-box span {
+    font-size:12px;
+    font-weight: 400;
+}
+
+.year-input::placeholder,
+ .month-input::placeholder,
+  .day-input::placeholder {
+    position:absolute;
+    font-size:25px;
+    font-weight:700;
+    left:15%;
+    bottom:20%;
+    color:hsl(0, 0%, 51%);
+ }
+
+
+.inputs input::-webkit-inner-spin-button,
+.inputs input::-webkit-outer-spin-button {
+   -webkit-appearance: none; 
+
+}
+
+.line-button {
+    margin-top:8%;  
+}
+.seperator {
+    height:1px;
+    background-color:hsla(0, 0%, 69%, 0.415);
+    width:90%;
+}
+.arrow-button {
+    position:absolute;
+    left:80%;
+    margin-top:-39px;
+    border-radius:70px;
+    border-style:none;
+    background-color:hsl(259, 100%, 65%);
+    padding:20px;
+    cursor: pointer;
+}
+.arrow-button:hover {
+    background-color: rgba(0, 0, 0, 0.97);
+}
+
+.results {
+    font-size:90px;
+    font-weight:800;
+    margin-top:-7%;
+    
+}
+.results p {
+    margin-bottom:-20%;
+}
+.results span {
+    color:hsl(259, 100%, 65%);
+    padding-right:10px;
+}
+
+  
+/* .error span{
+    color: red;
+}
+.error.pp{
+    color:red;
+}
+   */
